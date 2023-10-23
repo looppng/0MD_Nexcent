@@ -1,0 +1,28 @@
+:root {
+    --primary-color: #28cb8b;
+    --secondary-color: #263238;
+    --info-color: #2194f3;
+
+    --neutral-white: #ffffff;
+    --neutral-silver: #F5F7FA;
+    --neutral-gray-blue: #ABBED1;
+    --neutral-l_gray: #89939E;
+    --neutral-gray: #717171;
+    --neutral-d_gray: #4D4D4D;
+    --neutral-black: #263238;
+
+    --clr-shade1: #43A046;
+    --clr-shade2: #388E3B;
+    --clr-shade3: #237D31;
+    --clr-shade4: #1B5E1F;
+    --clr-shade5: #103E13;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
