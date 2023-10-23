@@ -16,13 +16,27 @@
     --clr-shade3: #237D31;
     --clr-shade4: #1B5E1F;
     --clr-shade5: #103E13;
+
+    --clr-tint1: #66BB69;
+    --clr-tint2: #81C784;
+    --clr-tint3: #A5D6A7;
+    --clr-tint4: #C8E6C9;
+    --clr-tint5: #E8F5E9;
+
+    --action-warning: #FBC02D;
+    --action-error: #E53835;
+    --action-success: #2E7D31;
+}
+* {
+    font-family: ;
 }
 
-body {
+.container-fluid {
     margin: 0;
     padding: 0;
 }
 
 .navbar-nav {
     margin-left: auto;
+
 }
