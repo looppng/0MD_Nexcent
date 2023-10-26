@@ -34,7 +34,16 @@
 }
 
 h1 {
-    font-size: 50px;
+        /* Header */
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+    color: var(--secondary-color);
+
+
 }
 
 p {
@@ -45,18 +54,39 @@ p {
     padding: 2em 0;
     text-align: center;
     border: 1px solid red;
+
 }
+
+.clients h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.clients-images {
+    display: flex;
+    flex:1;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
 
 .capab {
     padding: 2em 0;
     text-align: center;
     border: 1px solid yellow;
 }
-.container-fluid {
-    margin: 0;
-    padding: 0;
-}
+
 
 .navbar-nav {
     margin-left: auto;
+}
+
+.navbar-brand {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
 }
