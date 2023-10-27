@@ -162,9 +162,15 @@ textarea:not([rows]) {
     padding: 1em;
 }
 
-.callcontent p {
 
+.callcontent p {
     padding: 1em;
+}
+
+.bgbar {
+    display: flex;
+    background: var(--neutral-silver, #F5F7FA);
+    align-items: center;  
 }
 
 
