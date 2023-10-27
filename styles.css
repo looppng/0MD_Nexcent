@@ -200,7 +200,7 @@ body {
     line-height: var(--line-height-3);
 }
 .body-4 {
-    color: var(--neutral-black);
+    color: var(--neutral-gray);
     font-size: var(--font-size-4);
     font-style: normal;
     font-weight: var(--fw-regular);
