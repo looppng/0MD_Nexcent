@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #28cb8b;
+    --primary-color: #4CAF4F;
     --secondary-color: #263238;
     --info-color: #2194f3;
 
@@ -108,10 +108,7 @@ button, input, label {
 }
 
 /* Balance text wrapping on headings */
-h1, h2,
-h3, h4 {
-  text-wrap: balance;
-}
+
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
@@ -177,6 +174,44 @@ body {
     line-height: var(--line-height-1);
 }
 
+.container {
+    --max-width: 1440px;
+    --padding: 1rem;
+    
+
+    width: min(var(--max-width), 100% - (var(--padding) * 2));
+    margin-inline:auto;
+}
+
+.contentcontainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cntnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.contentcontainer .btn {
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+#navbarNav {
+    flex-direction: row;
+    justify-content: end;
+}
+
+.homea {
+    margin-right: 20px;
+}
+
 .medium-text {
     color: var(--neutral-black);
     font-size: var(--font-size-2);
@@ -199,10 +234,74 @@ body {
     font-weight: var(--fw-regular);
     line-height: var(--line-height-3);
 }
-.body-4 {
-    color: var(--neutral-gray);
-    font-size: var(--font-size-4);
+
+.body-4 h1, .body-4 h2, .body-4 h3, .body-4 a {
+    color: var(--neutral-white);
+    font-size: var(--font-size-2);
     font-style: normal;
     font-weight: var(--fw-regular);
-    line-height: var(--line-height-4);
+    line-height: var(--line-height-2);
+}
+
+.bg-silver {
+    background-color: var(--neutral-silver);
+}
+
+.bg-grey {
+    background-color: var(--secondary-color);
+}
+
+.btn {
+    display: inline-flex;
+    cursor: pointer;
+    text-decoration: none;
+    border: 0;
+    border-radius: 5px;
+    padding: 1em 1.5em;
+    color: var(--clr-tint5);
+    background-color: var(--primary-color);
+}
+
+.rbtn {
+    margin-right: auto;
+}
+
+.cbtn {
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn:hover,
+.btn:focus-visible {
+    cursor: pointer;
+    text-decoration: none;
+    border: 0;
+    border-radius: 5px;
+    padding: 1em 1.5em;
+    color: var(--clr-tint5);
+    background-color: var(--clr-shade2);
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex:1;
+    padding:15px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.speccol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
