@@ -413,7 +413,7 @@ body {
     object-fit: cover;
 }
 
-h4 , a {;
+h4 , a {
     line-height: 1;
     font-size: 1rem;
     font-weight: var(--fw-normal);
